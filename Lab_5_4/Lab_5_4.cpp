@@ -59,11 +59,11 @@ int main()
 	int N;
 	cout << "N = "; cin >> N;
 
-	cout << "(rec down --) S1 = " << setw(8) << right << S1(N, 16, 16, 1) << endl;
-	cout << "(rec down ++) S2 = " << setw(8) << right << S2(N, 16, N, 1) << endl;
-	cout << "(rec up --)   S3 = " << setw(8) << right << S3(N, 16, 16) << endl;
-	cout << "(rec up ++)   S4 = " << setw(8) << right << S4(N, 16, N) << endl;
-	cout << "(iter)        S5 = " << setw(8) << right << S5(N, 16) << endl;
+	cout << "(rec down --) P1 = " << setw(8) << right << S1(N, 16, 16, 1) << endl;
+	cout << "(rec down ++) P2 = " << setw(8) << right << S2(N, 16, N, 1) << endl;
+	cout << "(rec up --)   P3 = " << setw(8) << right << S3(N, 16, 16) << endl;
+	cout << "(rec up ++)   P4 = " << setw(8) << right << S4(N, 16, N) << endl;
+	cout << "(iter)        P5 = " << setw(8) << right << S5(N, 16) << endl;
 
 	return 0;
 }
